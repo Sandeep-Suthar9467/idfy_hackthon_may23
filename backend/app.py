@@ -14,10 +14,10 @@ app = Flask(__name__)
 CORS(app)
 # Connect to the database
 conn = psycopg2.connect(
-    host='localhost_server',
-    database='zipnewdb',
-    user='admin',
-    password='admin'
+    host='',
+    database='',
+    user='',
+    password=''
 )
 cursor = conn.cursor()
 
